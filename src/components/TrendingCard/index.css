@@ -1,0 +1,42 @@
+.trending-thumbnail-url {
+  width: 400px;
+}
+.trending-list {
+  list-style-type: none;
+  margin: 14px;
+  margin-bottom: 30px;
+  width: 700px;
+  display: flex;
+}
+.view-count-container {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name {
+  color: #475569;
+  font-size: 16px;
+}
+.trending-title {
+  text-align: start;
+}
+.published-at {
+  display: flex;
+  color: #475569;
+  font-size: 16px;
+}
+.view-counts {
+  margin-right: 20px;
+}
+.trending-card-button {
+  background-color: transparent;
+  border: 0px;
+}
+.trending-text-card {
+  display: flex;
+  justify-content: flex-start;
+}

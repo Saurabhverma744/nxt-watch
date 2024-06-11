@@ -1,0 +1,47 @@
+.thumbnail {
+  width: 300px;
+}
+.card-list {
+  list-style-type: none;
+  margin: 10px;
+  width: 300px;
+}
+.black-text {
+  color: #ffffff;
+  margin-left: 20px;
+}
+.profile-item-container {
+  display: flex;
+}
+.count-text {
+  color: #475569;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 20px;
+}
+.profile-image-url {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.count {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-card-button {
+  background-color: transparent;
+  border: 0px;
+}
+.home-card-text-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: start;
+}

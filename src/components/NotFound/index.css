@@ -1,0 +1,11 @@
+.not-found-image {
+  width: 400px;
+}
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-weight: bold;
+}

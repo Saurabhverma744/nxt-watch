@@ -1,0 +1,189 @@
+.home-list-button {
+  background-color: transparent;
+  border: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  width: 220px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.loader-container {
+  margin-top: 100px;
+}
+.search-icon-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.nxt-watch-list {
+  list-style-type: none;
+}
+.home-list-container {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.bac-red {
+  background-color: #f1f5f9;
+}
+.bac-blue {
+  background-color: #212121c9;
+}
+.dark {
+  background-color: #000000b7;
+}
+.light {
+  background-color: #ffffff;
+}
+.dark-color {
+  margin-right: 30px;
+  color: #ffffffd5;
+}
+.light-color {
+  margin-right: 30px;
+}
+.red {
+  color: red;
+}
+.footer-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer-container {
+  font-weight: bold;
+  margin-left: 30px;
+  padding-left: 20px;
+}
+.recommendation-container {
+  margin-right: 30px;
+}
+.white {
+  color: #ffffff;
+}
+.renderCard {
+  display: flex;
+}
+.nxt-cut-card-container {
+  width: 100%;
+}
+.nxt-cut-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  padding: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: roboto;
+}
+.get-button {
+  padding: 12px;
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.cut-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.back-light {
+  background-color: #ffffff;
+}
+.back-dark {
+  background-color: #000000b7;
+}
+.cut-button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-weight: 300;
+}
+.card-and-search-container {
+  width: 100%;
+}
+.search-input {
+  font-weight: bold;
+  font-family: roboto;
+  background-color: #000000b7;
+  padding: 12px;
+  width: 400px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 14px;
+  border: 0px;
+  color: #ffffff;
+}
+.input-container {
+  width: 500px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #616e7c;
+  border: 2px solid #94a3b8;
+}
+.search-icon {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+  color: #94a3b8;
+}
+.nxt-logo {
+  width: 300px;
+  height: 60px;
+}
+
+.light-search {
+  border: 2px solid grey;
+  background-color: #f1f5f9;
+}
+.light-searches {
+  background-color: #ffffff;
+  border-right: 2px solid grey;
+  color: #000000b7;
+}
+.lightIcon {
+  color: #000000b7;
+}
+.hide {
+  display: none;
+}
+.unordered-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.ul-list-container {
+  padding-left: 0px;
+}
+.failure-image-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: roboto;
+  font-weight: bold;
+}
+.failure-watch-image {
+  width: 300px;
+}
+.failure-text {
+  color: #ffffff;
+}
+.retry-button {
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 0px;
+  margin-top: 30px;
+}

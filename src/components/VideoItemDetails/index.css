@@ -1,0 +1,72 @@
+.video-player {
+  width: 100%;
+  align-self: center;
+}
+.video-item-details-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+.video-item-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.video-published-date {
+  display: flex;
+  font-weight: bold;
+}
+.video-item-details-like-container {
+  color: #475569;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+}
+.final-year {
+  margin-left: 20px;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.icon-youtube {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.video-item-like-container {
+  display: flex;
+}
+.video-button {
+  background-color: transparent;
+  border: 0px;
+}
+.like-icon {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 7px;
+}
+.impression-icon {
+  font-weight: bold;
+}
+.line-break {
+  font-weight: bold;
+  color: green;
+}
+.channel-profile {
+  width: 50px;
+  height: 50px;
+}
+.channel-details {
+  display: flex;
+  align-items: flex-start;
+}
+.batsman-description {
+  margin-left: 10px;
+}
+.blue {
+  color: blue;
+  font-weight: bold;
+}

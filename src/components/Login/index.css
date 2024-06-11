@@ -1,0 +1,81 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.Dark {
+  background-color: rgba(0, 0, 0, 0.651);
+  box-shadow: 2px 2px 8px #ffffff;
+  color: #ffffff;
+}
+.login-container {
+  box-shadow: 2px 2px 8px grey;
+  padding: 50px;
+  border-radius: 12px;
+  width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .login-container {
+    width: 300px;
+  }
+}
+
+.login-image {
+  width: 200px;
+  height: 40px;
+}
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.login-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-weight: bold;
+  font-family: roboto;
+
+  font-size: 15px;
+  margin-top: 40px;
+}
+.login-input {
+  padding: 8px;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 15px;
+  margin-top: 6px;
+  box-shadow: 0px 0px 3px grey;
+  border: 0px;
+  outline: none;
+}
+.checkbox-container {
+  margin-top: 10px;
+}
+.login-button {
+  display: flex;
+  font-weight: bold;
+  font-family: roboto;
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: center;
+  margin-top: 30px;
+  border: none;
+  color: #ffffff;
+}
+.darkest {
+  color: #ffffff;
+}
+.error-msg {
+  color: red;
+  font-size: 14px;
+}
